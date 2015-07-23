@@ -1,5 +1,5 @@
-var test = require('tape');
 var fs = require('fs');
+var test = require('tape');
 var jsdom = require('jsdom');
 var parse = require('../');
 
