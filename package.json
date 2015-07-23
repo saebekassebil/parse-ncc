@@ -1,6 +1,6 @@
 {
   "name": "parse-ncc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Parses an NCC (DAISY) file",
   "main": "index.js",
   "scripts": {
