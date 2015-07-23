@@ -39,9 +39,9 @@ jsdom.env('http://example.com/path/to/file.ncc', function(err, window) {
 
 ## api
 
-### var parse = require('parse-ncc');
+### `var parse = require('parse-ncc');`
 
-### parse(Element) -> structure
+### `parse(Element) -> structure`
 
 `parse` is a function, taking an `Element`. It will return a
 hierarchical representation of the flat NCC file. E.g.
@@ -84,6 +84,6 @@ Each element in the `structure` has the following properties:
 ```js
 {
   heading: HTMLElement, // The DOM element of the NCC document
-  children: Array()     // An array of other heading elements
+  children: Array()     // An array of other heading elements - possibly empty
 }
 ```
